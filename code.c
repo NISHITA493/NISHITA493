@@ -4,11 +4,11 @@
 void main()
 {
     char a[20];
-
-    puts("enter the string=");
+    printf("nishita");
+    printf("enter the string=");
     gets(a);
-puts("print reverse string");
-puts(strrev(a));
+printf("print reverse string");
+printf(strrev(a));
 
 
 }
