@@ -3,6 +3,7 @@ void printUnsignedRange(int bytes)
 {  
     int bits = 8 * bytes;    
     unsigned long long to = (1LLU << (bits - 1)) + ((1LL << (bits - 1)) - 1);;      
+   
     printf(" 0 to %llu\n\n", to);  
 }  
 void printSignedRange(int bytes)  
@@ -15,7 +16,7 @@ void printSignedRange(int bytes)
 int main()  
 {  
     /* print the range of integer type */
-    printf("siddhant\n");  
+    printf("nishita\n");  
     printf("Range of int =");  
     printSignedRange(sizeof(int));
     printf("Range of unsigned int =");  
